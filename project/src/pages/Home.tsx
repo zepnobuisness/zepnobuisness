@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <section className="py-20 px-4 sm:px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Get <span className="text-indigo-600">Virtual Numbers</span> for OTP Verification
+            Get <span className="text-indigo-600">Virtual Numbers</span> for SMS Verification
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Secure, temporary phone numbers for receiving verification codes from any service. No SIM card required.
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
         <div className="bg-white rounded-xl shadow-xl overflow-hidden">
           <img 
             src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-            alt="OTP Verification" 
+            alt="SMS Verification" 
             className="w-full h-80 object-cover object-center"
           />
         </div>
@@ -54,7 +54,7 @@ const Home: React.FC = () => {
       {/* Features Section */}
       <section className="py-16 px-4 sm:px-6 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-          Why Choose OTPHub?
+          Why Choose Zepno?
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Multiple Services</h3>
             <p className="text-gray-600">
-              Receive OTPs for Telegram, WhatsApp, Facebook, and many more popular services.
+              Receive SMS codes for Telegram, WhatsApp, Facebook, and many more popular services.
             </p>
           </div>
           
@@ -84,7 +84,7 @@ const Home: React.FC = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Pay As You Go</h3>
             <p className="text-gray-600">
-              No subscriptions needed. Only pay for the OTPs you request.
+              No subscriptions needed. Only pay for the SMS codes you request.
             </p>
           </div>
           
@@ -94,7 +94,7 @@ const Home: React.FC = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Real-time Delivery</h3>
             <p className="text-gray-600">
-              Receive OTPs instantly with our real-time monitoring system.
+              Receive SMS codes instantly with our real-time monitoring system.
             </p>
           </div>
         </div>
@@ -131,9 +131,9 @@ const Home: React.FC = () => {
             <div className="bg-indigo-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-6 text-xl font-bold">
               3
             </div>
-            <h3 className="text-xl font-semibold mb-3">Receive OTP</h3>
+            <h3 className="text-xl font-semibold mb-3">Receive SMS</h3>
             <p className="text-gray-600">
-              We'll show you the OTP as soon as it arrives on our system.
+              We'll show you the SMS code as soon as it arrives on our system.
             </p>
           </div>
         </div>
